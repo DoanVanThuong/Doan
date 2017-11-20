@@ -1,0 +1,589 @@
+.banner-page {
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+.slider-wp {
+    max-width: 100%;
+    height: auto;
+    background: #fff;
+}
+
+.slider-wp .slick-slide img {
+    width: 100%;
+    height: 423px;
+}
+
+.slider-wp .slider-content {
+    width: 100%;
+    height: 423px;
+    float: left;
+    overflow: hidden;
+}
+
+.slider-wp .btn-prev {
+    left: 3%;
+}
+
+.slider-wp .btn-next {
+    right: 3%;
+}
+
+.slider-wp .btn-next,
+.slider-wp .btn-prev {
+    position: absolute;
+    top: 45%;
+    font-size: 30px;
+    color: #E57022;
+    z-index: 4;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.slider-wp .btn-next:hover,
+.slider-wp .btn-prev:hover {
+    cursor: pointer;
+}
+
+.modal-backdrop.in {
+    opacity: 0.9;
+}
+
+.main-content {
+    /*404 Page */
+}
+.main-content .badge{
+    background:red;
+    font-family: 'Roboto-Regular';
+}
+.main-content .news-title {
+    background: url("../img/banner/banner.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Roboto-Regular';
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 0px;
+    margin-bottom: 20px;
+}
+
+.main-content .news-title a {
+    color: #fff;
+}
+
+.main-content .news-title a:hover {
+    color: #E57022;
+    -webkit-transition: all 0.2s;
+    /* Safari and Chrome */
+    /* Firefox */
+    /* IE 9 */
+    /* Opera */
+    transition: all 0.2s;
+}
+
+.main-content .hr-news {
+    border-bottom: 1px solid #E57022;
+    max-width: 130px;
+}
+
+
+/*CONTENT*/
+
+.content .content-title {
+    background-color: #E57022;
+    clear: both;
+    color: #ffffec;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content .content-title a {
+    color: #ffffec;
+    font-size: 14px;
+}
+
+.content .content-title a:hover {
+    -webkit-transition: all 0.2s;
+    /* Safari and Chrome */
+    /* Firefox */
+    /* IE 9 */
+    /* Opera */
+    transition: all 0.2s;
+    color: #1956b3;
+}
+
+.content .view-more {
+    text-align: right;
+    font-size: 14px;
+}
+
+.content .view-more a {
+    color: #E57022;
+}
+
+.content .view-more:after {
+    font-family: FontAwesome;
+    content: '\f101';
+    color: #E57022;
+}
+
+.content .header-news {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.content .header-news h3 a {
+    color: #000;
+    font-family: 'Roboto-Regular';
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.content .header-news h3 a:hover {
+    color: #1956b3;
+    -webkit-transition: all 0.2s;
+    /* Safari and Chrome */
+    /* Firefox */
+    /* IE 9 */
+    /* Opera */
+    transition: all 0.2s;
+}
+
+.content .header-news .hr-news {
+    margin: 0px auto;
+}
+
+.content .left-content .list-news li {
+    padding: 10px 0px 10px 0;
+    clear: left;
+    margin-top: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.content .left-content .list-news .news-img {
+    float: left;
+    max-width: 25%;
+    height: 130px;
+    overflow: hidden;
+}
+
+.content .left-content .list-news .news-img img {
+    -webkit-transition: all 0.4s;
+    /* Safari and Chrome */
+    /* Firefox */
+    /* IE 9 */
+    /* Opera */
+    transition: all 0.4s;
+}
+
+.content .left-content .list-news .news-img img:hover {
+    -webkit-transform: scale(1.1);
+    /* Safari and Chrome */
+    /* Firefox */
+    /* IE 9 */
+    /* Opera */
+    transform: scale(1.1);
+    -webkit-transition: all 0.4s linear 0s;
+    /* Safari and Chrome */
+    /* Firefox */
+    /* IE 9 */
+    /* Opera */
+    transition: all 0.4s linear 0s;
+    cursor: pointer;
+}
+
+.content .left-content .list-news .info-news {
+    float: left;
+    padding-left: 20px;
+    max-width: 70%;
+}
+
+.content .left-content .list-news .info-news .title-news a {
+    display: inline-block;
+    text-align: justify;
+    color: #000022;
+    font-family: Arial;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.content .left-content .list-news .info-news .title-news a:hover {
+    color: #E57022;
+    -webkit-transition: all 0.2s;
+    /* Safari and Chrome */
+    /* Firefox */
+    /* IE 9 */
+    /* Opera */
+    transition: all 0.2s;
+}
+
+.content .left-content .list-news .info-news .sub-title {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.content .left-content .list-news .time-news {
+    font-style: italic;
+    font-weight: 200;
+}
+
+.content .left-content .slick-dots {
+    text-align: left;
+    border: none;
+}
+
+.content .left-content .slick-dots li {
+    border-bottom: none;
+}
+
+.content .left-content .slick-dots li button:before {
+    color: #E57022;
+    border: 1px solid #dddddd;
+    border-radius: 50%;
+    font-size: 10px;
+}
+
+.content .left-content .slick-dots li button:active {
+    color: red;
+}
+
+.content .left-content .student-info,
+.content .left-content .study-info {
+    padding-top: 10px;
+}
+
+.content .left-content .student-info .news-img,
+.content .left-content .study-info .news-img {
+    height: 140px;
+    overflow: hidden;
+}
+
+.content .left-content .student-info .news-img img,
+.content .left-content .study-info .news-img img {
+    -webkit-transition: all 0.2s;
+    /* Safari and Chrome */
+    /* Firefox */
+    /* IE 9 */
+    /* Opera */
+    transition: all 0.2s;
+}
+
+.content .left-content .student-info .news-img img:hover,
+.content .left-content .study-info .news-img img:hover {
+    -webkit-transform: scale(1.1);
+    /* Safari and Chrome */
+    /* Firefox */
+    /* IE 9 */
+    /* Opera */
+    transform: scale(1.1);
+    -webkit-transition: all 0.4s linear 0s;
+    /* Safari and Chrome */
+    /* Firefox */
+    /* IE 9 */
+    /* Opera */
+    transition: all 0.4s linear 0s;
+    cursor: pointer;
+}
+
+.content .left-content .student-info .sub-title,
+.content .left-content .study-info .sub-title {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.content .right-content .info-tuyensinh img {
+    -webkit-transition: all 0.2s;
+    /* Safari and Chrome */
+    /* Firefox */
+    /* IE 9 */
+    /* Opera */
+    transition: all 0.2s;
+}
+
+.content .right-content .info-tuyensinh img:hover {
+    -webkit-transform: scale(1.1);
+    /* Safari and Chrome */
+    /* Firefox */
+    /* IE 9 */
+    /* Opera */
+    transform: scale(1.1);
+    -webkit-transition: all 0.4s linear 0s;
+    /* Safari and Chrome */
+    /* Firefox */
+    /* IE 9 */
+    /* Opera */
+    transition: all 0.4s linear 0s;
+    cursor: pointer;
+}
+
+.content .right-content .quickjob {
+    margin-bottom: 10px;
+}
+
+.content .right-content .quickjob li {
+    padding: 6px 0px 6px 0px;
+    font-size: 15px;
+}
+
+.content .right-content .quickjob li a {
+    color: #4171C1;
+}
+
+.content .right-content .quickjob .news-post-date {
+    color: #ccc;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.content .right-content .Utilitie li {
+    padding: 15px 5px 15px 90px;
+    text-align: left;
+    background-repeat: no-repeat !important;
+    background-position: left 15px top 30px !important;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    background-color: #fff !important;
+}
+
+.content .right-content .Utilitie li a {
+    font-size: 20px;
+    color: #1956B3;
+    font-family: 'Roboto-Bold';
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+.content .right-content .Utilitie li p {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.content .right-content .Utilitie #ttb {
+    background: url("../img/gif/tham-tra-bang.gif");
+}
+
+.content .right-content .Utilitie #dkmh {
+    background: url("../img/gif/Dang-ky-mon-hoc-truc-tuyen.gif");
+}
+
+.content .right-content .Utilitie #dvsv {
+    background: url("../img/gif/Dich-vu-Sinh-vien-Online.gif");
+}
+
+.content .right-content .Utilitie #dttt {
+    background: url("../img/gif/Dao-tao-Truc-tuyen.gif");
+}
+
+.content .right-content .Utilitie #ddht {
+    background: url("../img/gif/Dien-dan-hoc-tap.gif");
+}
+
+.content .right-content .info-tuyensinh li {
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.quick-link p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 22.64px;
+    padding: 10px;
+    font-family: 'Roboto-Regular';
+}
+
+.quick-link .quick-link-content {
+    padding: 10px 0px;
+}
+
+.quick-link .quick-link-content img {
+    -webkit-transition: all 0.2s;
+    /* Safari and Chrome */
+    /* Firefox */
+    /* IE 9 */
+    /* Opera */
+    transition: all 0.2s;
+}
+
+.quick-link .quick-link-content img:hover {
+    -webkit-transform: scale(1.1);
+    /* Safari and Chrome */
+    /* Firefox */
+    /* IE 9 */
+    /* Opera */
+    transform: scale(1.1);
+    -webkit-transition: linear all 0.4s;
+    /* Safari and Chrome */
+    /* Firefox */
+    /* IE 9 */
+    /* Opera */
+    transition: linear all 0.4s;
+    cursor: pointer;
+}
+
+
+/*LOGO-SLIDER*/
+
+.logo-slider .news-title {
+    background-size: cover;
+}
+
+.logo-slider .logo-slider-wp {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.logo-slider .logo-slider-wp .col-md-2:hover a {
+    color: #1956b3;
+    -webkit-transition: all 0.3s ease-in 0s;
+    /* Safari and Chrome */
+    /* Firefox */
+    /* IE 9 */
+    /* Opera */
+    transition: all 0.3s ease-in 0s;
+}
+
+.logo-slider .logo-slider-wp .col-md-2:hover img {
+    -webkit-transition: all 0.3s linear 0s;
+    /* Safari and Chrome */
+    /* Firefox */
+    /* IE 9 */
+    /* Opera */
+    transition: all 0.3s linear 0s;
+    -webkit-transform: scale(1.1);
+    /* Safari and Chrome */
+    /* Firefox */
+    /* IE 9 */
+    /* Opera */
+    transform: scale(1.1);
+    cursor: pointer;
+    opacity: 1;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+.logo-slider .logo-slider-wp a {
+    font-family: 'Roboto-Light';
+    font-size: 30px;
+    color: #dfdfdf;
+}
+
+.logo-slider .logo-slider-wp img {
+    opacity: .4;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: all 0.3s ease-in;
+    /* Safari and Chrome */
+    /* Firefox */
+    /* IE 9 */
+    /* Opera */
+    transition: all 0.3s ease-in;
+}
+
+
+/*Responsive*/
+
+
+/* Landscape Tablet*/
+
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+    .slider-wp .slider-content {
+        height: auto;
+    }
+}
+
+
+/* Portrait Tablet*/
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .slider-wp .slider-content {
+        height: auto;
+    }
+
+    .slider-wp .btn-next,
+    .slider-wp .btn-prev {
+        top: 40%;
+    }
+
+    .header-top .slider-header-top {
+        width: 100%;
+    }
+
+    .content .right-content .Utilitie #ttb,
+    .content .right-content .Utilitie #dkmh,
+    .content .right-content .Utilitie #dvsv,
+    .content .right-content .Utilitie #dttt,
+    .content .right-content .Utilitie #ddht {
+        background: none;
+    }
+    .content .right-content .Utilitie li {
+        padding: 0;
+    }
+}
+
+
+/* Landscape mobile */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .slider-wp .slider-content {
+        height: auto;
+    }
+
+    .slider-wp .btn-next,
+    .slider-wp .btn-prev {
+        top: 40%;
+    }
+
+    .content .left-content .student-info .news-img img,
+    .content .left-content .study-info .news-img img {
+        margin: 0px auto;
+    }
+}
+
+
+/*Portrait Mobile*/
+
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+    .slider-wp .slider-content {
+        height: auto;
+    }
+
+    .slider-wp .slick-slide img {
+        height: 200px;
+        width: 100%;
+    }
+
+    .slider-wp .btn-next,
+    .slider-wp .btn-prev {
+        top:40%;
+    }
+
+    .content .left-content .list-news .news-img {
+        float: none;
+        max-width: 100%;
+    }
+    .content .left-content .list-news .news-img img {
+        margin: 0px auto;
+    }
+
+    .content .left-content .student-info .news-img img,
+    .content .left-content .study-info .news-img img {
+        margin: 0px auto;
+    }
+
+    .content .left-content .list-news .info-news {
+        float: none;
+        max-width: 100%;
+    }
+}
+
+
+/*# sourceMappingURL=home.css.map */

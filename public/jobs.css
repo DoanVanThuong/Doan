@@ -1,0 +1,165 @@
+.main-content .breadcrumb {
+  text-align: right;
+  margin: 0px; }
+  .main-content .breadcrumb .active a {
+    color: #E57022; }
+.main-content .fb-share-button {
+  height: 24px;
+  width: 80px;
+  margin: 0px auto; }
+  .main-content .fb-share-button a {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #FFF;
+    background: #354f88;
+    padding: 2px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    display: block; }
+    .main-content .fb-share-button a:before {
+      font-family: FontAwesome;
+      content: '\f09a'; }
+    .main-content .fb-share-button a:active {
+      background-color: #5D7DAE; }
+    .main-content .fb-share-button a:hover {
+      background-color: #5D7DAE; }
+.main-content .comment {
+  margin: 40px 0; }
+  .main-content .comment .btn {
+    margin-top: 20px;
+    padding: 6px 20px; }
+
+/*BANNER JOBS*/
+.job-header {
+  font-family: 'Roboto-Regular';
+  margin-bottom: 40px; }
+
+.job-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 495px;
+  background: url("../img/banner/banner-job.jpg") no-repeat;
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed; }
+  .job-banner:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background: rgba(47, 47, 47, 0.65); }
+  .job-banner .job-banner-title {
+    font-size: 45px;
+    line-height: 22.64px;
+    color: #fff;
+    z-index: 3;
+    font-family: 'Roboto-Light';
+    text-transform: uppercase; }
+
+/*JOB-Wrapper*/
+.jobs-wp .list-jobs {
+  position: relative;
+  padding: 10px 0; }
+  .jobs-wp .list-jobs .item-job-viewmore button a {
+    color: #fff; }
+  .jobs-wp .list-jobs:hover {
+    background: #E57022;
+    cursor: pointer;
+    color: #fff;
+    -webkit-transition: all 0.4s;
+    /* Safari and Chrome */
+    -moz-transition: all 0.4s;
+    /* Firefox */
+    -ms-transition: all 0.4s;
+    /* IE 9 */
+    -o-transition: all 0.4s;
+    /* Opera */
+    transition: all 0.4s; }
+    .jobs-wp .list-jobs:hover .item-job-content-wp .job-title,
+    .jobs-wp .list-jobs:hover .item-job-content-wp .company,
+    .jobs-wp .list-jobs:hover .item-job-content-wp a {
+      color: #fff; }
+    .jobs-wp .list-jobs:hover .item-job-viewmore button {
+      background: #fff;
+      border-color: #E57022;
+      color: #E57022; }
+      .jobs-wp .list-jobs:hover .item-job-viewmore button a {
+        color: #E57022; }
+  .jobs-wp .list-jobs .item-jobs-img {
+    float: left;
+    width: 20%;
+    margin: 8px auto; }
+    .jobs-wp .list-jobs .item-jobs-img img {
+      width: 75%;
+      margin: 0px auto;
+      -webkit-transition: all 0.4s;
+      /* Safari and Chrome */
+      -moz-transition: all 0.4s;
+      /* Firefox */
+      -ms-transition: all 0.4s;
+      /* IE 9 */
+      -o-transition: all 0.4s;
+      /* Opera */
+      transition: all 0.4s; }
+      .jobs-wp .list-jobs .item-jobs-img img:hover {
+        -webkit-transform: scale(1.2);
+        /* Safari and Chrome */
+        -moz-transform: scale(1.2);
+        /* Firefox */
+        -ms-transform: scale(1.2);
+        /* IE 9 */
+        -o-transform: scale(1.2);
+        /* Opera */
+        transform: scale(1.2);
+        -webkit-transition: all 0.4s linear 0s;
+        /* Safari and Chrome */
+        -moz-transition: all 0.4s linear 0s;
+        /* Firefox */
+        -ms-transition: all 0.4s linear 0s;
+        /* IE 9 */
+        -o-transition: all 0.4s linear 0s;
+        /* Opera */
+        transition: all 0.4s linear 0s; }
+  .jobs-wp .list-jobs .item-job-content-wp {
+    float: left;
+    width: 70%;
+    padding-left: 10px; }
+    .jobs-wp .list-jobs .item-job-content-wp .job-title {
+      text-align: left;
+      font-size: 16px;
+      color: #000;
+      line-height: 22.64px;
+      text-transform: uppercase;
+      font-family: 'Roboto-Bold'; }
+    .jobs-wp .list-jobs .item-job-content-wp .company {
+      text-align: left;
+      font-size: 14px;
+      color: #000;
+      line-height: 22.64px;
+      font-family: 'Roboto-ExtraLight'; }
+    .jobs-wp .list-jobs .item-job-content-wp .tag a {
+      color: #1956b3; }
+  .jobs-wp .list-jobs .item-job-viewmore {
+    position: absolute;
+    z-index: 3;
+    top: 25%;
+    right: 4%; }
+    .jobs-wp .list-jobs .item-job-viewmore button {
+      background: #E57022;
+      border-color: #fff; }
+
+/**REPONSIVE/
+
+
+/* Landscape Tablet*/
+/* Portrait Tablet*/
+/* Landscape mobile */
+/*Portrait Mobile*/
+
+/*# sourceMappingURL=jobs.css.map */

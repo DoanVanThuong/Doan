@@ -1,0 +1,61 @@
+.main-content .fb-share-button {
+  height: 24px;
+  width: 80px; }
+  .main-content .fb-share-button a {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #FFF;
+    background: #354f88;
+    padding: 2px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    display: block; }
+    .main-content .fb-share-button a:before {
+      font-family: FontAwesome;
+      content: '\f09a'; }
+    .main-content .fb-share-button a:active {
+      background-color: #5D7DAE; }
+    .main-content .fb-share-button a:hover {
+      background-color: #5D7DAE; }
+
+/*header news detail*/
+/*content news detail*/
+.content-news-detail-wp {
+  padding-bottom: 20px; }
+  .content-news-detail-wp .title {
+    line-height: 30px;
+    color: #444444;
+    font-size: 30px;
+    font-family: 'Arial';
+    font-weight: bold; }
+  .content-news-detail-wp .content {
+    padding-bottom: 20px; }
+    .content-news-detail-wp .content p {
+      font-size: 16px; }
+    .content-news-detail-wp .content img {
+      margin: 0px auto; }
+  .content-news-detail-wp .author {
+    text-align: left;
+    color: #444444;
+    font-weight: bold;
+    font-size: 15px; }
+  .content-news-detail-wp .comment {
+    margin: 40px 0; }
+    .content-news-detail-wp .comment .btn {
+      margin-top: 20px;
+      padding: 6px 20px; }
+  .content-news-detail-wp .like-reply-wp a:hover {
+    text-decoration: underline; }
+
+/*footer news detail*/
+/**REPONSIVE/
+
+
+/* Landscape Tablet*/
+/* Portrait Tablet*/
+/* Landscape mobile */
+/*Portrait Mobile*/
+
+/*# sourceMappingURL=news-detail.css.map */

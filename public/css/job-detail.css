@@ -1,0 +1,103 @@
+.main-content .company {
+    font-size: 24px;
+    text-align: center;
+    color: #000;
+}
+
+.thumb {
+    margin-bottom: 30px;
+}
+
+.thumb img {
+    margin: 0px auto;
+    -webkit-transition: all 0.4s;
+    /* Safari and Chrome */
+    /* Firefox */
+    /* IE 9 */
+    /* Opera */
+    transition: all 0.4s;
+}
+
+.thumb img:hover {
+    -webkit-transform: scale(1.1);
+    /* Safari and Chrome */
+    /* Firefox */
+    /* IE 9 */
+    /* Opera */
+    transform: scale(1.1);
+    -webkit-transition: all 0.4s linear 0s;
+    /* Safari and Chrome */
+    /* Firefox */
+    /* IE 9 */
+    /* Opera */
+    transition: all 0.4s linear 0s;
+}
+
+.detail-job-wp {
+    margin-bottom: 50px;
+}
+
+.detail-job-wp p {
+    font-size: 16px;
+    font-family: 'Roboto-Regular';
+}
+
+.detail-job-wp button {
+    padding: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 800;
+    font-family: 'Roboto-Light';
+}
+
+.detail-job-wp .detail-job-title {
+    color: #353535;
+    font-size: 31px;
+    font-family: 'Roboto-Light';
+    font-weight: 600;
+}
+
+.detail-job-wp .job-tag li {
+    padding: 4px 6px;
+    margin: 0px 10px;
+    border: 1px solid #e5e5e5;
+}
+
+.detail-job-wp .job-tag li:hover {
+    background-color: #1956b3;
+    -webkit-transition: all 0.2s;
+    /* Safari and Chrome */
+    /* Firefox */
+    /* IE 9 */
+    /* Opera */
+    transition: all 0.2s;
+    cursor: pointer;
+    color: #fff;
+}
+
+.detail-job-wp .description ul {
+    padding-left: 20px;
+}
+
+.detail-job-wp .description ul li {
+    padding: 10px 0px;
+    font-size: 16px;
+}
+
+
+/**REPONSIVE/
+
+
+/* Landscape Tablet*/
+
+
+/* Portrait Tablet*/
+
+
+/* Landscape mobile */
+
+
+/*Portrait Mobile*/
+
+
+/*# sourceMappingURL=job-detail.css.map */

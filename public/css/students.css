@@ -1,0 +1,46 @@
+.students-page .navbar-right .open {
+  background: #2098D1 !important; }
+  .students-page .navbar-right .open a {
+    background-image: none;
+    background-color: #1956b3; }
+    .students-page .navbar-right .open a:hover {
+      background: #2098D1 !important; }
+    .students-page .navbar-right .open a:focus {
+      background: #2098D1 !important; }
+
+.content {
+  margin: 40px 0px; }
+
+.info-student-wp #name {
+  font-size: 25px; }
+.info-student-wp #mssv {
+  font-family: 'Candara Bold';
+  font-size: 30px;
+  line-height: 50px; }
+
+#list-info-student li {
+  padding: 10px 0px;
+  font-size: 16px; }
+  #list-info-student li:nth-child(odd) {
+    background: #ccc; }
+  #list-info-student li:nth-child(even) {
+    background: #fcfcfc; }
+  #list-info-student li span {
+    text-transform: uppercase;
+    font-family: 'Roboto-Regular'; }
+  #list-info-student li label:first-letter {
+    text-transform: uppercase; }
+#list-info-student label{
+  padding-left:5px;
+}
+.change-password span {
+  color: red;
+  font-size: 13px; }
+
+/**REPONSIVE*/
+/* Landscape Tablet*/
+/* Portrait Tablet*/
+/* Landscape mobile */
+/*Portrait Mobile*/
+
+/*# sourceMappingURL=students.css.map */

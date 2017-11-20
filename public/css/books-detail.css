@@ -1,0 +1,142 @@
+.content .header-detail .book-title {
+  font-family: 'Roboto-Bold';
+  font-size: 24px;
+  line-height: 22.64px;
+  color: #E57022; }
+.content .header-detail .author {
+  font-family: 'Roboto-Regular';
+  font-size: 16px; }
+.content .content-detail {
+  margin-top: 50px; }
+  .content .content-detail .book-img {
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.46);
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.46); }
+     .content .content-detail .book-img img{
+      margin:0px auto;
+     }       
+    .content .content-detail .book-img:hover {
+      cursor: pointer;
+      margin: 0px auto; }
+  .content .content-detail .book-caption {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Roboto-Regular';
+    font-size: 30px; }
+    .content .content-detail .book-caption:hover {
+      cursor: pointer;
+      color: #E57022;
+      -webkit-transition: all 0.2s;
+      /* Safari and Chrome */
+      /* Firefox */
+      /* IE 9 */
+      /* Opera */
+      transition: all 0.2s; }
+  .content .content-detail .content-detail-wp p {
+    font-family: 'Roboto-Regular';
+    font-size: 16px; }
+  .content .content-detail .content-detail-wp button a {
+    color: #fff;
+    text-align: center; }
+
+.footer-content {
+  margin: 100px 0px; }
+  .footer-content .footer-content-title {
+    max-width: 100%;
+    background: url("../img/banner/banner.jpg") no-repeat;
+    min-height: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 50px;
+    background-size: cover; }
+    .footer-content .footer-content-title h2 {
+      font-size: 40px;
+      font-family: 'RobotoCondensed-Light';
+      line-height: 22.64px;
+      color: #fff;
+      text-transform: uppercase; }
+  .footer-content .book-relative-wp {
+    max-width: 1088px;
+    margin: 0px auto; }
+    .footer-content .book-relative-wp .book-relative-item {
+      min-height: 257px;
+      margin: 0px 5px;
+      overflow: hidden; }
+      .footer-content .book-relative-wp .book-relative-item img {
+        width: 200px;
+        margin: 0px auto;
+        -webkit-transition: all 0.4s;
+        /* Safari and Chrome */
+        /* Firefox */
+        /* IE 9 */
+        /* Opera */
+        transition: all 0.4s; }
+        .footer-content .book-relative-wp .book-relative-item img:hover {
+          -webkit-transform: scale(1.1);
+          /* Safari and Chrome */
+          /* Firefox */
+          /* IE 9 */
+          /* Opera */
+          transform: scale(1.1);
+          -webkit-transition: all 0.4s linear 0s;
+          /* Safari and Chrome */
+          /* Firefox */
+          /* IE 9 */
+          /* Opera */
+          transition: all 0.4s linear 0s; }
+      .footer-content .book-relative-wp .book-relative-item .caption {
+        font-size: 24px;
+        line-height: 22px;
+        font-family: 'Roboto-Light';
+        padding: 10px 0px; }
+        .footer-content .book-relative-wp .book-relative-item .caption a {
+          color: #444444;
+          -webkit-transition: all 0.2s;
+          /* Safari and Chrome */
+          /* Firefox */
+          /* IE 9 */
+          /* Opera */
+          transition: all 0.2s; }
+          .footer-content .book-relative-wp .book-relative-item .caption a:hover {
+            color: #E57022; }
+  .footer-content .btn-prev {
+    left: 3%; }
+  .footer-content .btn-next {
+    right: 3%; }
+  .footer-content .btn-next,
+  .footer-content .btn-prev {
+    position: absolute;
+    top: 45%;
+    font-size: 30px;
+    color: #f4bc16;
+    z-index: 4;
+    font-size: 30px;
+    font-weight: bold; }
+    .footer-content .btn-next:hover,
+    .footer-content .btn-prev:hover {
+      cursor: pointer;
+      -webkit-transition: all 0.2s;
+      /* Safari and Chrome */
+      /* Firefox */
+      /* IE 9 */
+      /* Opera */
+      transition: all 0.2s; }
+
+/* Landscape Tablet*/
+/* Portrait Tablet*/
+/* Landscape mobile */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .book-detail-page .main-content .content {
+    text-align: center; } }
+/*Portrait Mobile*/
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+  .book-detail-page .main-content .content {
+    text-align: center; } }
+
+/*# sourceMappingURL=books-detail.css.map */

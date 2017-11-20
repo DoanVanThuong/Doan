@@ -1,0 +1,357 @@
+/* ================== STYLE FOR ONLY HEADER AND FOOTER ====================== */
+
+
+/*MENU*/
+
+#header {
+    background-color: #fff;
+}
+
+#header .container {
+    max-width: 1270px;
+}
+
+.top-menu-wrap {
+    background: url('../img/menu_top_bg.png') no-repeat center;
+    background-size: cover;
+    font-size: 16px;
+    color: #008000;
+}
+
+.top-right {
+    float: right;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.hightlight {
+    font-style: italic;
+    font-weight: 700;
+}
+
+.time {
+    padding: 18px 10px 8px 0;
+    float: left;
+    text-align: right;
+}
+
+.hotline {
+    padding: 18px 30px 8px 10px;
+    text-align: right;
+    float: left;
+}
+
+.shop-cart {
+    border-left: 1px solid #ccc;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 13px 0 3px 40px;
+    text-align: right;
+    float: left;
+}
+
+.cart {
+    position: relative;
+    width: 20px;
+}
+
+.qty {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    line-height: 17px;
+    text-align: center;
+    color: #fff;
+    font-size: 11px;
+    font-family: 'Lato-Regular';
+    background-color: #479b1e;
+    border-radius: 5px;
+    top: -7px;
+    right: -10px;
+}
+
+.abcd-nav {
+    background: url('../img/grass-bg-header.png') no-repeat center;
+    background-size: cover;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 0;
+    background-color: #fff;
+}
+
+.abcd-nav .navbar-brand {
+    position: relative;
+}
+
+.abcd-nav .logo {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    z-index: 999;
+    margin-top: -30px;
+}
+
+.abcd-nav .navbar-brand:hover {
+    color: #fff;
+}
+
+.abcd-nav ul li .submenu-item {
+    color: black;
+}
+
+.dropdown-menu li {
+    border-bottom: 1px solid green;
+}
+
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: white!important;
+    background: transparent;
+}
+
+.abcd-nav ul li a {
+    color: #fff;
+    font-family: 'UTM-Cafeta';
+    font-size: 18px;
+    padding: 25px 25px 10px;
+}
+
+.abcd-nav .navbar-nav>li>a {
+    color: #fff;
+}
+
+.abcd-nav .navbar-nav>.open>a,
+.abcd-nav .navbar-nav>.active>a {
+    background-image: none;
+    background-color: transparent;
+    color: #22dd07;
+    box-shadow: none;
+}
+
+.abcd-nav .navbar-nav>.active>a,
+.abcd-nav .navbar-nav>.active>a:hover,
+.abcd-nav .navbar-nav>.active>a:focus,
+.abcd-nav .navbar-nav>li>a:hover {
+    background-color: transparent;
+    color: #22dd07;
+}
+
+.abcd-nav .navbar-toggle:hover {
+    background-color: #fff;
+}
+
+.abcd-nav .navbar-toggle:hover .icon-bar {
+    background-color: #008000;
+}
+
+.fixed {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    top: 0;
+}
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #0c5e23;
+    padding: 80px 0 140px 0;
+}
+
+.footer-title {
+    font-family: 'Lato-Regular';
+    font-size: 14px;
+    color: #fefefe;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+ul.footer-link li a {
+    color: #fff;
+    font-size: 10px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+ul.footer-link li a:hover {
+    color: #479b1e;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.footer-link {
+    margin-top: 20px;
+}
+.footer-link .row-space{
+    margin-bottom: 13px;
+}
+.footer-link .row-space img{
+    min-width: 76px;
+}
+.footer-link span {
+    color: #fff;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.footer-link .icon-footer {
+    margin-right: 2px;
+}
+
+.footer-link .address {
+    display: inline-flex;
+}
+
+.footer-link .house {
+    display: inline-block;
+    margin-left: -6px;
+}
+
+.footer-link .line-address {
+    margin-bottom: 10px;
+}
+
+.footer-bottom {
+    border-top: 1.5px solid #fefefe;
+    background-color: #0c5e23;
+}
+
+.footer-bottom p {
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    padding: 28px 0 20px 0;
+    font-family: 'Lato-Regular';
+    float: left;
+}
+
+ul.social-icon-footer li {
+    display: inline-block;
+    padding: 8px 6px;
+}
+
+ul.social-icon-footer li a {
+    display: block;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.footer-bottom .back-top-footer {
+    float: right;
+    background-color: #0a481c;
+    margin-top: 15px;
+    padding: 15px 12px;
+}
+
+/* slider images */
+.img-galery-wp {
+    max-width: 350px;
+    height: auto;
+    margin: 0px auto;
+    background: #0c5e23;
+    display: FLEX;
+    justify-content: space-between;
+}
+
+.img-galery-wp img {
+    flex-basis: 16%;
+    width: 52px;
+    height: auto;
+}
+
+.img-galery-wp img:hover {
+    cursor: pointer;
+    filter: brightness(150%);
+    background: #090c07;
+}
+
+@media (max-width: 300px) {
+    #footer .img-galery-wp {
+        display: flex;
+        justify-content: initial;
+    }
+}
+
+.modal-dialog {
+    max-width: 480px;
+}
+
+.modal-dialog .slick-prev,
+.modal-dialog .slick-next {
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    font-size: 0;
+}
+
+.modal-dialog .slick-prev:before,
+.modal-dialog .slick-next:before {
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    content: "";
+    display: block;
+    height: 60px;
+    opacity: 1;
+    width: 30px;
+}
+
+.modal-dialog .slick-prev:hover:before,
+.modal-dialog .slick-next:hover:before {
+    opacity: .8;
+}
+
+.modal-dialog .slick-prev {
+    z-index: 1;
+    left: 30px;
+}
+
+.modal-dialog .slick-prev:before {
+    background-image: url("../img/icon-pre.png");
+}
+
+.modal-dialog .slick-next {
+    right: 30px;
+}
+
+.modal-dialog .slick-next:before {
+    background-image: url("../img/icon-next.png");
+}
+.modal-content{
+    margin-top: 25%;
+}
+.modal-content .close-icon {
+    font-family: 'Lato-Regular';
+    font-size: 36px;
+    line-height: 24px;
+    color: #fff;
+    background: #000;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    position: absolute;
+    z-index: 1;
+    right: -14px;
+    top: -5px;
+}
+
+.modal-content:hover {
+    cursor: pointer;
+}
+
+body.modal-open {
+    overflow: hidden;
+}
